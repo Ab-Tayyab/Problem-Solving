@@ -134,3 +134,114 @@
 // else{
 //     console.log("Not a Prime Number")
 // }
+
+// 16 : Fibonacci Sequence: Use a while loop to generate the first 10 numbers of the Fibonacci sequence and store them in an array.
+
+// let i = 2;
+// let arr = [0, 1];
+// while (arr.length < 10) {
+//     arr[i] = arr[i - 1] + arr[i - 2];
+//     i++;
+// }
+// console.log(arr)
+
+// 17 : Loop with Array Modification: Create an array of numbers. Use a for loop to double each number and store the result in a new array.
+
+// let arr = [1,2,3,4,5,6,7,8,9,10];
+// let newArr = [];
+// for(let i=0; i<arr.length;i++){
+//     newArr.push(arr[i]*2);
+// }
+// console.log(newArr);
+
+// 18 : Pattern Printing: Write a for loop to print a right-angled triangle of asterisks with 5 rows:
+
+// for(let i=0; i<5;i++){
+//     for(let j=0;j<i;j++){
+//         document.write("*")
+//     }
+//     document.write("</br>")
+// }
+
+// 19 : FizzBuzz: Write a for loop to print numbers from 1 to 100. For multiples of 3, print "Fizz"; for multiples of 5, print "Buzz"; for multiples of both, print "FizzBuzz".
+
+// for(let i=1; i<=100;i++){
+//     if(i%3==0){
+//         console.log(i + " Fizz")
+//     }
+//     else if(i%5==0){
+//         console.log(i + " Buzz")
+//     }
+//     else if(i%3==0 && i%5==0){
+//         console.log(i + " FizzBuzz")
+//     }
+//     else{
+//         console.log(i)
+//     }
+// }
+
+// 20 : Array Filtering with Loop: Create an array of 20 random numbers. Use a for loop to create a new array containing only numbers greater than 10.
+
+// let arr = [1,3,5,7,12,121,234,222,1222];
+// let newArr=[];
+// for(let i=0; i<arr.length;i++){
+//     if(arr[i]>20){
+//         newArr.push(arr[i])
+//     }
+// }
+// console.log(newArr)
+
+// 21 : Nested Loop Matrix: Write nested for loops to create a 3x3 matrix (2D array) filled with sequential numbers (1 to 9). Log the matrix.
+
+// let num =0;
+// let matrix = [];
+// for(let i=0; i<3;i++){
+//     let row = [];
+//     for(let j=0;j<3;j++){
+//         num += 1
+//         row.push(num)
+//     }
+//     matrix.push(row)
+// }
+// document.write(matrix)
+
+// 22 : Loop with Early Exit: Write a while loop to find the first number divisible by both 7 and 11 between 1 and 100. Stop the loop once found.
+
+// let i = 1;
+// while(i<=100){
+//     if(i%7==0 && i%11==0){
+//         console.log(i)
+//         break;
+//     }
+//     i++;
+// }
+
+// 23 :Reverse Array with Loop: Create an array of 10 numbers. Use a for loop to reverse the array without using built-in methods like reverse().
+
+// let arr = [1,2,3,4,5,6,7,8,9];
+// let newArr = [];
+// for(let i=arr.length-1;i>=0;i--){
+//     newArr.push(arr[i])
+// }
+// console.log(newArr);
+
+// 24 : Infinite Loop Prevention: Write a while loop that increments a counter but includes a condition to prevent an infinite loop. Log the counter until it reaches 50.
+
+// let counter = 1;
+// while (counter <= 50) {
+//   console.log(counter);
+//   counter++;
+// }
+
+// 25 : Complex Pattern: Use nested for loops to print a diamond pattern with 5 rows (3 rows up, 1 middle, 1 down): 
+
+// let sp = 3;
+// for(let i = 1; i<=sp;i++){
+//     document.write("&nbsp;".repeat(sp-i) + "*".repeat(2*i-1))
+//     document.write("</br>")
+// }
+
+// for(let i=sp-1; i>=1;i--){
+//     document.write("&nbsp;".repeat(sp-i) + "*".repeat(2*i-1))
+//     document.write("</br>")
+// }
