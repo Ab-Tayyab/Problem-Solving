@@ -88,14 +88,14 @@
 
 // 10.Match Status: Log "Win" if team score > opponent score, else "Loss". 
 
-let target = 300;
-let lScore = 299;
-if(lScore>target){
-    console.log("Win")
-}
-else if(lScore == target){
-    console.log("Tie")
-}
-else{
-    console.log("Loss")
-}
+// let target = 300;
+// let lScore = 299;
+// if(lScore>target){
+//     console.log("Win")
+// }
+// else if(lScore == target){
+//     console.log("Tie")
+// }
+// else{
+//     console.log("Loss")
+// }
